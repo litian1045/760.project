@@ -1,6 +1,7 @@
 from fancyimpute import BiScaler, KNN, NuclearNormMinimization, SoftImpute
 import pandas as pd
 import numpy
+from sklearn import
 
 n = 10000
 data_set = pd.read_csv('main.csv')
